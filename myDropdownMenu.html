@@ -9,24 +9,35 @@
     padding: 12px 15px;
 }
  .dropbtn {
-    background: #81ceec;
+    background: #77c4f3;
     color: white;
     font-size: 20px;
     border: none;
     padding: 16px;
     cursor: pointer;
 }
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 9px 6px 16px 4px #4aa6de;
+    z-index: 1;
+}
+ .dropbtn:hover .dropdown-content{
+    display: block;
+}
 </style>
 </head>
 <body>
-<h1> my Dropdown Menu </h1>
+<h1> my dropdown menu </h1>
+<hr/>
 <div class="dropdown">
-<button>A</button>
-  <div class="dropdown-content">
+<button class="dropbtn">A Button Menu</button>
+<div class="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
-  </div>
+</div>
 </div>
 </body>
 </html>
