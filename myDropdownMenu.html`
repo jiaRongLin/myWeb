@@ -3,6 +3,19 @@
 <head>
 <title> my Dropdown Menu </title>
 <style>
+  .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+ .dropbtn {
+    background: #81ceec;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
 </style>
 </head>
 <body>
