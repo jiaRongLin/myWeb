@@ -1,40 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Jiarong's Animation</title>
-<link rel="stylesheet" type="text/css" href="/browserref.css">
-<style> 
-#animated_div {
-  width:76px;
-  height:47px;
-  background: rgb(26, 118, 184);
-color: rgb(231, 76, 76);;
-position: relative;
-font-weight:bold;
-font-size:20px;
-padding:10px;
-animation:animated_div 5s 1;
--moz-animation:animated_div 5s 1;
--webkit-animation:animated_div 5s 1;
--o-animation:animated_div 5s 1;
-border-radius:5px;
-  -webkit-border-radius:5px;
-}
-@-webkit-keyframes animated_div
-{
-0% {-webkit-transform: rotate(0deg);left:0px;}
-25% {-webkit-transform: rotate(20deg);left:0px;}
-50% {-webkit-transform: rotate(0deg);left:500px;}
-55% {-webkit-transform: rotate(0deg);left:500px;}
-70% {-webkit-transform: rotate(0deg);left:500px;background:rgb(242, 160, 252);}
-100% {-webkit-transform: rotate(-360deg);left:0px;}
-} 
- 
+<title>Jiarong's Animation Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="myAnimationStyle.css">
+<style>
 </style>
+
 </head>
 <body>
- 
-  <div id="animated_div">CSS3<br><span style="font-size:10px;">Animation</span></div>
-
- </body>
+  <header>
+My Animation Test
+  </header>
+  <div id="animateDiv">
+    animation test here
+  </div>
+  <footer>
+    my footer here
+  </footer>
+</body>
 </html>
